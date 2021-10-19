@@ -1,54 +1,110 @@
 <!DOCTYPE html>
 <html>
-    <style>
-    
-         th {
-          border: solid black;
-       
+    <head>
+        <title>My Personal Website</title>
 
-        }
-        table{
-            border: solid black;
-           
-        }
-       .style{
-           background-color:white;
-       }
+    </head>   
+    <body>
       
-        .tablestyle{
-         width: 100%; 
-        background-color: yellow;
-        background-image: url("CITE BUTAS.png");
-        
-         
-}
-iframe{
-            width: 100%;
-            height: 400px;
-} 
-        </style>
-<center><h1> MY PERSONAL WEBSITE</center></h1>
-<body>
-    <table class="tablestyle">  
-        <tr style="  background-color: orange;">
-            <th colspan="4"><h2>BSIT - 3</h2></th>
-          </tr>
-      <tr><th>SUBJECT CODE</th><th>DESCRIPTION</th><th>DAY/TIME</th><th>INSTRUCTOR</th></tr>  
-        <tr class="style"><th>            </th><th>           </th><th>    MW    </th><th>               </th></tr> 
-        <tr ></tr><th>IT Elect 3</th><th>IT Elective 3</th><th>9:00-11:30</th><th>VERGARA</th>
-        <tr ></tr><th>	EDP 101</th><th>Event-Driven Programming</th><th>12:30-2:00</th><th>MASCULINO</th>
-        <tr></tr><th>IM 101</th><th>Advance Database System</th><th>2:00-4:30</th><th>SABILI</th>
-        <tr ></tr><th>SAD 101</th><th>System Analysis and Design</th><th>4:30-6:00</th><th>BULADACO</th></tr> 
-        <tr class="style"><th>            </th><th>           </th><th>    MW    </th><th>               </th></tr> 
-        <tr ></tr><th>MAP 101</th><th>Mobile Application Development 1</th><th>8:00-10:30</th><th>ENUMERABLES</th></tr> 
-        <tr></tr><th>	SIA 101</th><th>System Integration and Architecture</th><th>1:00-3:30</th><th>SABILI</th></tr> 
-        <tr ></tr><th>IAS 101</th><th>Information Assurance and Security 1</th><th>3:30-5:00</th><th>MIA BAJAN</th></tr> 
-        <tr class="style"><th>            </th><th>           </th><th>    MW    </th><th>               </th></tr>
-        <tr ><th>SF 5</th><th>Student Formation 5</th><th>9:00-12:00</th><th>MIA BAJAN</th></tr> 
-        <tr><th>NET 102</th><th>Networking 2</th><th>4:00-6:30</th><th>CLARO</th></tr> 
-        <tr class="style"><th>            </th><th>           </th><th>    MW    </th><th>               </th></tr>
-        <tr><th>NET 102</th><th>Networking 2</th><th>4:00-6:30</th><th>CLARO</th></tr> 
-        </table> 
-        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSoi6JsfCQquKDGKVbQT0WCkHZXVApmNnf0xMxo0uKY4LAwwOjSdY7dLX2QRPvQ1w/pubhtml?widget=true&amp;headers=false"></iframe>
-</body>
-</html>
+        <table width = "100%"; border ="1px">
+             
+                <p style="text-align:center;font-size:30px;">BSIT - 3 </p>       
+
+            <tr>
+                <td style="text-align:center;"><b>Subject Code</b></td>
+                <td style="text-align:center;"><b>Description</b></td>
+                <td style="text-align:center;"><b>Schedule</b></td>
+                <td style="text-align:center;"><b>Teacher</b></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="text-align:center;">WH </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>IT Elect 3 </td>
+                <td>IT Elective 3 </td>
+                <td>9:00-11:30 </td>
+                <td>AARON VERGARA </td>
+            </tr>
+            <tr>
+                <td>EDP 101 </td>
+                <td>Event-Driven Programming </td>
+                <td>12:30-2:00 </td>
+                <td>MASCULINO </td>
+            </tr>
+            <tr>
+                <td>IM 101 </td>
+                <td>Advance Database System	</td>
+                <td>2:00-4:30 </td>
+                <td>MARK SABILI </td>
+            </tr>
+            <tr>
+                <td>SAD 101 </td>
+                <td>System Analysis and Design </td>
+                <td>4:30-6:00 </td>
+                <td>BULADACO </td>
+            </tr>      
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="text-align:center;">TTh </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>MAP 101	</td>
+                <td>Mobile Application Development 1 </td>
+                <td>8:00-10:30 </td>
+                <td>ENUMERABLES </td>
+            </tr>
+            <tr>
+                <td>SIA 101	</td>
+                <td>System Integration and Architecture	</td>
+                <td>1:00-3:30 </td>
+                <td>SABILI </td>
+            </tr>
+            <tr>
+                <td>IAS 101 </td>
+                <td>Information Assurance and Security 1 </td>
+                <td>3:30-5:00 </td>
+                <td>MIA BAJAN </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="text-align:center;">FRI </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>SF 5 </td>
+                <td>Student Formation 5	</td>
+                <td>9:00-12:00 </td>
+                <td>MIA BAJAN </td>
+            </tr>
+            <tr>
+                <td>NET 102	</td>
+                <td>Networking 2 </td>
+                <td>4:00-6:30 </td>
+                <td>CLARO </td>
+            </tr>      <tr>
+                <td></td>
+                <td></td>
+                <td style="text-align:center;">SAT </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>NET 102	</td>
+                <td>Networking 2 </td>
+                <td>4:00-6:30 </td>
+                <td>CLARO </td>
+            </tr>
+            
+        </table>
+
+
+        <iframe style width = "100%" height="800px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSoi6JsfCQquKDGKVbQT0WCkHZXVApmNnf0xMxo0uKY4LAwwOjSdY7dLX2QRPvQ1w/pubhtml?widget=true&amp;headers=false"></iframe>
+       
+    </body>  
+
+    </html>
