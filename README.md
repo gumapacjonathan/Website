@@ -1,1 +1,54 @@
-# Website
+<!DOCTYPE html>
+<html>
+    <style>
+    
+         th {
+          border: solid black;
+       
+
+        }
+        table{
+            border: solid black;
+           
+        }
+       .style{
+           background-color:white;
+       }
+      
+        .tablestyle{
+         width: 100%; 
+        background-color: yellow;
+        background-image: url("CITE BUTAS.png");
+        
+         
+}
+iframe{
+            width: 100%;
+            height: 400px;
+} 
+        </style>
+<center><h1> MY PERSONAL WEBSITE</center></h1>
+<body>
+    <table class="tablestyle">  
+        <tr style="  background-color: orange;">
+            <th colspan="4"><h2>BSIT - 3</h2></th>
+          </tr>
+      <tr><th>SUBJECT CODE</th><th>DESCRIPTION</th><th>DAY/TIME</th><th>INSTRUCTOR</th></tr>  
+        <tr class="style"><th>            </th><th>           </th><th>    MW    </th><th>               </th></tr> 
+        <tr ></tr><th>IT Elect 3</th><th>IT Elective 3</th><th>9:00-11:30</th><th>VERGARA</th>
+        <tr ></tr><th>	EDP 101</th><th>Event-Driven Programming</th><th>12:30-2:00</th><th>MASCULINO</th>
+        <tr></tr><th>IM 101</th><th>Advance Database System</th><th>2:00-4:30</th><th>SABILI</th>
+        <tr ></tr><th>SAD 101</th><th>System Analysis and Design</th><th>4:30-6:00</th><th>BULADACO</th></tr> 
+        <tr class="style"><th>            </th><th>           </th><th>    MW    </th><th>               </th></tr> 
+        <tr ></tr><th>MAP 101</th><th>Mobile Application Development 1</th><th>8:00-10:30</th><th>ENUMERABLES</th></tr> 
+        <tr></tr><th>	SIA 101</th><th>System Integration and Architecture</th><th>1:00-3:30</th><th>SABILI</th></tr> 
+        <tr ></tr><th>IAS 101</th><th>Information Assurance and Security 1</th><th>3:30-5:00</th><th>MIA BAJAN</th></tr> 
+        <tr class="style"><th>            </th><th>           </th><th>    MW    </th><th>               </th></tr>
+        <tr ><th>SF 5</th><th>Student Formation 5</th><th>9:00-12:00</th><th>MIA BAJAN</th></tr> 
+        <tr><th>NET 102</th><th>Networking 2</th><th>4:00-6:30</th><th>CLARO</th></tr> 
+        <tr class="style"><th>            </th><th>           </th><th>    MW    </th><th>               </th></tr>
+        <tr><th>NET 102</th><th>Networking 2</th><th>4:00-6:30</th><th>CLARO</th></tr> 
+        </table> 
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSoi6JsfCQquKDGKVbQT0WCkHZXVApmNnf0xMxo0uKY4LAwwOjSdY7dLX2QRPvQ1w/pubhtml?widget=true&amp;headers=false"></iframe>
+</body>
+</html>
